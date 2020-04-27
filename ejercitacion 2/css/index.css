@@ -1,0 +1,10 @@
+body{
+    background-image: url(../img/emilia-home.jpg);
+    background-position: right top;
+    background-size: 66%;
+    background-repeat: no-repeat;
+}
+
+p{
+    font-family: ralew;
+}

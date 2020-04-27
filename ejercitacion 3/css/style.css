@@ -1,0 +1,68 @@
+
+#encabezado {
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+
+.float-left{
+    float: left;
+}
+
+#navegacion{
+    border-right: 1px solid grey;
+    width: 300px;
+    padding: 15px;
+}
+
+#contenido{
+    float: left;
+    width: 610px;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.navegacion-menu{
+    list-style-type: none;
+    padding: 0;
+}
+
+.navegacion-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor-cuerpo{
+    box-sizing: border-box;
+    margin: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.listado-menu{
+    list-style-type: none;
+}
+
+.foto-entrada{
+    float: right;
+}
+
+footer{
+    padding: 20px;
+    width: 920px;
+    overflow: hidden;
+    background-color: #BDBDBD;
+  }
+  .logo{
+    float: left;
+    width: 250px;
+    margin-left: 15px;
+    margin-top: 7px;
+  }
+  .contacto{
+    float: right;
+  }
+  .cont{
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  }
