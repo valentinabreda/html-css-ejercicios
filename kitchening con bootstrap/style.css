@@ -1,0 +1,44 @@
+body{
+    background-image: url('./kitchening/images/bg-body.png');
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    border-radius: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 1px black;
+}
+
+.bg-secondary, .btn-secondary {
+    background-color: rgb(66, 64, 67) !important;
+}
+
+.main-nav li a, .main-footer li a {
+    margin-bottom: 2px;
+}
+
+.banner, .main-nav {
+    margin-bottom: 15px;
+}
+
+.main-footer {
+     margin-bottom: 15px;
+     margin-top: 15px;
+}
+
+.main-nav, .bg-danger {
+    border-radius: 15px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.bg-danger {
+    background-color: rgb(218, 16, 9) !important;
+    display: flex;
+    align-self: stretch;
+}
+
