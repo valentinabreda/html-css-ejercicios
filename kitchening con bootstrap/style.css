@@ -32,13 +32,56 @@ body{
     border-radius: 15px;
 }
 
-h2{
-    font-weight: bold;
+
+.photo-container{
+    position: relative;
 }
 
-.bg-danger {
-    background-color: rgb(218, 16, 9) !important;
+.special{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+.zoom{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    background: rgb(0,0,0,0.4);
+    top: 42%;
+   
+}
+
+
+#main-footer-desk {
+    background-color: rgb(185, 37, 25);
     display: flex;
-    align-self: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 0px;
+    height: 100px;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
+#main-footer-desk ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 3.5%;
+}
+
+#main-footer-desk ul li a{
+    color: white;
+}
+
+#main-footer-desk ul li + li:before{
+    content: "|";
+    padding: 0 10px;
+    color: white;
+}
